@@ -40,7 +40,11 @@ Each service has a Dockerfile. In the infra folder, we have all the manifests fo
 - Add automatic testing
 - Add CI/CD. 
 - Logging
+- Add a service registry with circuit breaker pattern (k8s makes this approach mostly redundant and unncessary)
+- Add a caching layer
 
 [THIS DOC NEEDS TO BE REFINED. I WROTE IN A HURRY.. LITERALLY :P]
 
 ##### Special thanks for @StephenGrider for the wonderful course on Microservice with node js and react
+
+### Varaiant of this architecutre using service registry (which makes use of circuit breaker patter, active mq and cache): https://github.com/mpq1990/microservices-architecture-nodejs
